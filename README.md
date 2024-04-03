@@ -1,5 +1,4 @@
 # cintel-05-cintel 
-
 ## Shiny Live Data Dashboard
 
 ### Introduction
