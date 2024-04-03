@@ -12,7 +12,7 @@ from faicons import icon_svg
 from ipyleaflet import Map  
 
 UPDATE_INTERVAL_SECS: int = 10
-DEQUE_SIZE: int = 6
+DEQUE_SIZE: int = 10
 reactive_value_wrapper = reactive.value(deque(maxlen=DEQUE_SIZE))
 
 @reactive.calc()
