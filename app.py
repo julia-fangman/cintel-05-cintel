@@ -11,14 +11,14 @@ from scipy import stats
 from faicons import icon_svg
 from ipyleaflet import Map  
 
-UPDATE_INTERVAL_SECS: int = 1
-DEQUE_SIZE: int = 5
+UPDATE_INTERVAL_SECS: int = 10
+DEQUE_SIZE: int = 6
 reactive_value_wrapper = reactive.value(deque(maxlen=DEQUE_SIZE))
 
 @reactive.calc()
 def reactive_calc_combined():
     reactive.invalidate_later(UPDATE_INTERVAL_SECS)
-    temp = round(random.uniform(8, 10), 1)
+    temp = round(random.uniform(8, 10), 6)
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     new_dictionary_entry = {"temp":temp, "timestamp":timestamp}
     reactive_value_wrapper.get().append(new_dictionary_entry)
