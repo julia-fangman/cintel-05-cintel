@@ -5,6 +5,7 @@
 
 ### Introduction
 This repository contains a Python application built with Shiny for displaying real-time data in a dashboard format. The goal of this project is to demonstrate the visualization and presentation of live data in an accessible and useful manner. The application showcases real-time temperature readings from St. Joseph, Missouri in a dashboard layout, providing users with insights into temperature trends over time. By utilizing Shiny and other Python libraries, such as Pandas and Plotly Express, the application offers interactive visualizations and robust data management capabilities.
+https://github.com/julia-fangman/cintel-05-cintel/blob/main/app.py 
 
 ### Basic App Example
 Before beginning with enhancements or variations, ensure the app has similar functionality to this basic example:
