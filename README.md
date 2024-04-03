@@ -1,4 +1,4 @@
-# cintel-05-cintel   # Julia Fangman
+# cintel-05-cintel 
 
 ## Shiny Live Data Dashboard
 
